@@ -1,6 +1,6 @@
 /*
  * Title: Mount Douglas Calculator Version 1
- * Authors: Liam Teschke,
+ * Authors: Liam Teschke, Jonas Kunis
  * 
  * Date: Nov 24th, 2023
  * Purpose: 
