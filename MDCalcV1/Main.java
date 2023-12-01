@@ -1,10 +1,6 @@
 /*
  * Title: Mount Douglas Calculator Version 1
-<<<<<<< HEAD
- * Authors: Liam Teschke, Mamon MC
-=======
- * Authors: Liam Teschke, Jonas Kunis
->>>>>>> 5ec4eea7a07717a4ccdcce8a5787bf26013a614e
+ * Authors: Liam Teschke, Mamon MC, Jonas Kunis
  * 
  * Date: Nov 24th, 2023
  * Purpose: 
