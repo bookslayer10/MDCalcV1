@@ -13,10 +13,18 @@ public class ButtonConcat implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        if (userInput.getInput().equals("0")) {
-            userInput.setInput(buttonValue);
+        System.out.println(buttonValue);
+        if (buttonValue.equals("=")) {
+            System.out.println("Performing calculation");
+            userInput.setInput(userInput.getInput());  // Set the input before calculation
+            userInput.setOperator("=");
+            userInput.calculateResult();
         } else {
-            userInput.setInput(userInput.getInput().concat(buttonValue));
+            if (userInput.getInput().equals("0") || userInput.isFirstInput()) {
+                userInput.setInput(buttonValue);
+            } else {
+                userInput.setInput(userInput.getInput().concat(buttonValue));
+            }
         }
     }
 }
